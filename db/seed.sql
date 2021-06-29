@@ -7,7 +7,7 @@ VALUES
 (5, "Customer Service"),
 (6, "Logistics");
 
-INSERT INTO employee_role (id, title, salary, departmetn_id)
+INSERT INTO employee_role (id, title, salary, department_id)
 VALUES
 (1, "President", 1000000, 1),
 (2, "Product Engineer", 100000, 2),
@@ -15,7 +15,7 @@ VALUES
 (4, "Product Manager", 110000, 3),
 (5, "Assistant Product Manager", 65000, 3),
 (6, "Account Manager", 110000, 4),
-(7, "Customer Service Representative", 55000, 5),
+(7, "Customer Service Rep", 55000, 5),
 (8, "Supply Chain Manager", 98000, 6);
 
 INSERT INTO employee (id, first_name, last_name, role_id)
